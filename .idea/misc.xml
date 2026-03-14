@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/saraswati_platform_right_digits_cart_appn/pom.xml" />
+        <option value="$PROJECT_DIR$/saraswati_platform_right_digits_user_appn/pom.xml" />
+        <option value="$PROJECT_DIR$/saraswati_platform_right_digits_order_appn/pom.xml" />
+        <option value="$PROJECT_DIR$/saraswati_platform_right_digits_api_gateway/pom.xml" />
+        <option value="$PROJECT_DIR$/saraswati_platform_right_digits_backend_appn/pom.xml" />
+        <option value="$PROJECT_DIR$/saraswati_platform_right_digits_payment_appn/pom.xml" />
+        <option value="$PROJECT_DIR$/saraswati_platform_right_digits_product_appn/pom.xml" />
+        <option value="$PROJECT_DIR$/saraswati_platform_right_digits_kafka_consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/saraswati_platform_right_digits_kafka_producer/pom.xml" />
+        <option value="$PROJECT_DIR$/saraswati_platform_right_digits_files_documents/pom.xml" />
+        <option value="$PROJECT_DIR$/saraswati_platform_right_digits_rest_client_appn/pom.xml" />
+        <option value="$PROJECT_DIR$/saraswati_platform_right_digits_app_config_server/pom.xml" />
+        <option value="$PROJECT_DIR$/saraswati_platform_right_digits_client_management/pom.xml" />
+        <option value="$PROJECT_DIR$/saraswati_platform_right_digits_application_testing/pom.xml" />
+        <option value="$PROJECT_DIR$/saraswati_platform_right_digits_authorization_server/pom.xml" />
+        <option value="$PROJECT_DIR$/saraswati_platform_right_digits_common_general_codes/pom.xml" />
+        <option value="$PROJECT_DIR$/saraswati_platform_right_digits_service_registry_appn/pom.xml" />
+        <option value="$PROJECT_DIR$/saraswati_platform_right_digits_functional_programs_appn/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" project-jdk-name="25" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

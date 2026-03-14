@@ -9,10 +9,10 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.right.digits.microservices</groupId>
-    <artifactId>appn-config-server-microService</artifactId>
+    <artifactId>api-gateway-microService</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>RightDigitsAppnConfigServerMicroservice</name>
-    <description>RightDigitsAppnConfigServerMicroservice</description>
+    <name>RightDigits_API_Gateway_MicroService</name>
+    <description>RightDigits_API_Gateway_MicroService</description>
     <url/>
     <licenses>
         <license/>
@@ -186,6 +186,21 @@
     <build>
         <plugins>
             <plugin>
+                <groupId>org.springdoc</groupId>
+                <artifactId>springdoc-openapi-maven-plugin</artifactId>
+                <version>1.5</version>
+                <executions>
+                    <execution>
+                        <goals><goal>generate</goal></goals>
+                    </execution>
+                </executions>
+                <configuration>
+                    <apiDocsUrl>http://localhost:8080/v3/api-docs</apiDocsUrl>
+                    <outputFileName>openapi</outputFileName>
+                    <outputDir>${project.basedir}/openapi</outputDir>
+                </configuration>
+            </plugin>
+            <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-compiler-plugin</artifactId>
                 <configuration>
@@ -233,13 +248,6 @@
                         </configuration>
                     </execution>
                 </executions>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.springframework.restdocs</groupId>
-                        <artifactId>spring-restdocs-asciidoctor</artifactId>
-                        <version>${spring-restdocs.version}</version>
-                    </dependency>
-                </dependencies>
             </plugin>
         </plugins>
     </build>
