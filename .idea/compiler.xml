@@ -2,7 +2,7 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
-      <profile name="Annotation profile for RightDigits_API_Gateway_MicroService" enabled="true">
+      <profile name="Annotation profile for RightDigits_User_MicroService" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
@@ -13,6 +13,7 @@
         <module name="functional-programming-microService" />
         <module name="common-general-codes-microService" />
         <module name="back-end-microService" />
+        <module name="api-gateway-microService" />
         <module name="rest-client-microService" />
         <module name="software-testing-microService" />
         <module name="user-microService" />
@@ -24,8 +25,8 @@
         <module name="client-management-microService" />
         <module name="payment-microService" />
         <module name="authorization-server-microService" />
-        <module name="appn-config-server-microService" />
         <module name="kafka-producer-microService" />
+        <module name="appn-config-server-microService" />
         <module name="cart-microService" />
         <module name="order-microService" />
       </profile>
@@ -33,6 +34,7 @@
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="api-gateway-microService" options="-parameters" />
       <module name="appn-config-server-microService" options="-parameters" />
       <module name="appn-config-server-microService (1)" options="-parameters" />
       <module name="authorization-server-microService" options="-parameters" />
